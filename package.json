@@ -14,7 +14,7 @@
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags",
     "bump": "npm version patch",
-    "prepare": "npm run build",
+    "prepublish": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
     "release": "npm run bump && npm publish"
   },
