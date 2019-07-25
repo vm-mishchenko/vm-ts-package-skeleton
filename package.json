@@ -2,8 +2,8 @@
   "name": "vm-ts-package-skeleton",
   "version": "0.0.7",
   "description": "https://itnext.io/step-by-step-building-and-publishing-an-npm-typescript-package-44fe7164964c",
-  "main": "src/index.js",
-  "types": "src/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc --watch",
