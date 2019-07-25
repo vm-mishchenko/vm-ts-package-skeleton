@@ -16,7 +16,7 @@
     "bump": "npm version patch",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
-    "release": "npm run bump && npm run publish"
+    "release": "npm run bump && npm publish"
   },
   "files": [
     "dist/**/*"
