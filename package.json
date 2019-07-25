@@ -1,6 +1,6 @@
 {
   "name": "vm-ts-package-skeleton",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "https://itnext.io/step-by-step-building-and-publishing-an-npm-typescript-package-44fe7164964c",
   "main": "src/index.js",
   "types": "src/index.d.ts",
@@ -14,7 +14,8 @@
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
-    "postversion": "git push && git push --tags"
+    "postversion": "git push && git push --tags",
+    "bump": "npm version patch"
   },
   "files": [
     "dist/**/*"
